@@ -96,12 +96,16 @@ if __name__ == '__main__':
             help = 'runs executable on build success or change of input.txt')
     parser.add_argument('-l', '--limit', nargs=1, type=int, default=[5],
             help = 'process time limit')
+    parser.add_argument('-i', '--init', action='store_true',
+            help = 'initializes folder for specified day')
     args = parser.parse_args()
 
     handler = SessionHandler(
         base_dir = os.path.dirname(os.path.realpath(__file__)),
         args = args,
     )
+
+    # initialize folder
 
     if not handler.config_is_valid():
         exit()

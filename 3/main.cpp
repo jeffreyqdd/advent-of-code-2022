@@ -8,6 +8,7 @@ int priority(char c) {
     return c - 'A' + 27;
   }
 }
+
 int main() {
   std::ios_base::sync_with_stdio(false);
 
