@@ -1,0 +1,72 @@
+id: 0
+items: [79, 98]
+divisible by: 23
+true: 2, false: 3
+id: 1
+items: [54, 65, 75, 74]
+divisible by: 19
+true: 2, false: 0
+id: 2
+items: [79, 60, 97]
+divisible by: 13
+true: 1, false: 3
+id: 3
+items: [74]
+divisible by: 17
+true: 0, false: 1
+monkey0 inspects item 79
+monkey0 new worry 1501
+monkey0 new worry 500
+throw to 3
+monkey0 inspects item 98
+monkey0 new worry 1862
+monkey0 new worry 620
+throw to 3
+monkey1 inspects item 54
+monkey1 new worry 60
+monkey1 new worry 20
+throw to 0
+monkey1 inspects item 65
+monkey1 new worry 71
+monkey1 new worry 23
+throw to 0
+monkey1 inspects item 75
+monkey1 new worry 81
+monkey1 new worry 27
+throw to 0
+monkey1 inspects item 74
+monkey1 new worry 80
+monkey1 new worry 26
+throw to 0
+monkey2 inspects item 79
+monkey2 new worry 6241
+monkey2 new worry 2080
+throw to 1
+monkey2 inspects item 60
+monkey2 new worry 3600
+monkey2 new worry 1200
+throw to 3
+monkey2 inspects item 97
+monkey2 new worry 9409
+monkey2 new worry 3136
+throw to 3
+monkey3 inspects item 74
+monkey3 new worry 77
+monkey3 new worry 25
+throw to 1
+monkey3 inspects item 500
+monkey3 new worry 503
+monkey3 new worry 167
+throw to 1
+monkey3 inspects item 620
+monkey3 new worry 623
+monkey3 new worry 207
+throw to 1
+monkey3 inspects item 1200
+monkey3 new worry 1203
+monkey3 new worry 401
+throw to 1
+monkey3 inspects item 3136
+monkey3 new worry 3139
+monkey3 new worry 1046
+throw to 1
