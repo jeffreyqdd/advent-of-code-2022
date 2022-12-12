@@ -1,7 +1,7 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 int main() {
-  std::ios_base::sync_with_stdio(false);
+  cout << "hello world!" << endl;
   return 0;
 }
