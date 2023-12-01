@@ -94,7 +94,7 @@ class SessionHandler(FileSystemEventHandler):
                 exec_file = os.path.join(self.config.session_dir, "main"),
                 src_file = src_path
             ) + '< ' + self.input_file[0]
-            run_command = f'timeout {self.args.limit[0]}s ' + run_command
+            run_command = f'gtimeout {self.args.limit[0]}s ' + run_command
             os.system('clear')
             print(f'>> executing file with time limit {self.args.limit[0]}s')
             os.system(run_command)

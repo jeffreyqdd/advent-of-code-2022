@@ -5,3 +5,4 @@ for line in stdin:
     print(line)
 
 print("hello world")
+
