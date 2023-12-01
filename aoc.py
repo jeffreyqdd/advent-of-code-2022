@@ -128,7 +128,7 @@ if __name__ == '__main__':
     if not os.path.exists(config.session_dir):
         if args.init:
             print(f'creating session at {config.session_dir}')
-            os.system(f'cp template/ {config.session_dir} -r')
+            os.system(f'cp -r template/ {config.session_dir}')
         else:
             print(f'session at {config.session_dir} does not exist')
             print(f'\tplease pass in the -i flag to explicitly init session')
